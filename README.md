@@ -14,7 +14,7 @@ prinf ("Hello word")
 	cin >> x >> y >> z;
 	if (pow(x, 2) + y > 0 && x + sin(13)!=0)
 	{
-		a = sqrt(pow(x, 2) + y) - pow(y, 2) * pow(sin(x + z), 3) / (x + sin(13));
+		a = sqrt(pow(x, 3) + y*x) - pow(pow(y, 2),2) * pow(sin(x + z), 3) / (x + sin(13));
 		cout << a << endl;
 	}
 	else
