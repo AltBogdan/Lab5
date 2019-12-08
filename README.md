@@ -9,6 +9,7 @@ using namespace std;
 
 int main()
 {
+prinf ("Hello word")
 	double a, x, y, z;
 	cin >> x >> y >> z;
 	if (pow(x, 2) + y > 0 && x + sin(13)!=0)
