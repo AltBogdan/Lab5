@@ -1,0 +1,25 @@
+
+#include "windows.h"
+#include <iostream>
+#include "math.h"
+
+using namespace std;
+
+int main()
+{
+	double i = 5, x, n;
+	cin >> x;
+	double rez;
+	double sum = 0;
+	for ( n = 1; n < 5; n++)
+	{
+		sum =sum+(cos(pow(n, 3)) + log(x));
+		rez = sum / pow(tan(x), 2);
+		printf("Y=%f\n", rez);
+	}
+	
+	system("pause");
+	return 0;
+
+
+}
